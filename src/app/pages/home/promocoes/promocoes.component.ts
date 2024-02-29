@@ -2,7 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PromocaoService } from 'src/app/core/services/promocao.service';
 import { Promocao } from 'src/app/core/types/type';
-
+import { CardBuscaComponent } from 'src/app/shared/card-busca/card-busca.component';
 @Component({
   selector: 'app-promocoes',
   templateUrl: './promocoes.component.html',
